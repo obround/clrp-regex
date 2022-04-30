@@ -11,4 +11,6 @@ print(regex.check("868993458990966743234"))
 
 and `test_clrp.py` contains an example of the LR(1) parser generator at work.
 
+Similar to `yacc`, the parser generator generates a standalone parser file (using the `CLR1Parser.codegen` method) for your grammar (it comes hardcoded with the entire parsing table). You can then import it and use it as you would a normal parser.
+
 [1]: https://swtch.com/~rsc/regexp/regexp1.html
